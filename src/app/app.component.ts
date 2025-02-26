@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 import { AuthComponent } from './auth/auth.component';
 import { LearningResourcesComponent } from './learning-resources/learning-resources.component';
+import {SafeLinkDirective} from "./safe-link.directive";
 
 @Component({
   selector: 'app-root',
